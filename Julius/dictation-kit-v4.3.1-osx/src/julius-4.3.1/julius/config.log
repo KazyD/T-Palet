@@ -1,0 +1,77 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:591: checking host system type
+configure:613: checking host-specific optimization flag
+configure:629: checking for gcc
+configure:742: checking whether the C compiler (gcc  ) works
+configure:758: gcc -o conftest    conftest.c  1>&5
+configure:755:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^
+1 warning generated.
+configure:784: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:789: checking whether we are using GNU C
+configure:817: checking whether gcc accepts -g
+configure:849: checking how to run the C preprocessor
+configure:941: checking for a BSD compatible install
+configure:996: checking for rm
+configure:1029: checking for Cygwin environment
+configure:1062: checking for mingw32 environment
+configure:1093: checking for executable suffix
+configure:1421: checking for ANSI C header files
+configure:1434: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1501: gcc -o conftest.dSYM -g -O2   conftest.c  1>&5
+configure:1496:67: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                  ^
+configure:1496:67: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 1490 "configure"
+#include "confdefs.h"
+#include <ctype.h>
+#define ISLOWER(c) ('a' <= (c) && (c) <= 'z')
+#define TOUPPER(c) (ISLOWER(c) ? 'A' + ((c) - 'a') : (c))
+#define XOR(e, f) (((e) && !(f)) || (!(e) && (f)))
+int main () { int i; for (i = 0; i < 256; i++)
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+exit (0); }
+
+configure:1526: checking for working const
+configure:1580: gcc -c -g -O2  conftest.c 1>&5
+configure:1610: checking for winnls.h
+configure:1620: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1616:10: fatal error: 'winnls.h' file not found
+#include <winnls.h>
+         ^~~~~~~~~~
+1 error generated.
+configure: failed program was:
+#line 1615 "configure"
+#include "confdefs.h"
+#include <winnls.h>
+configure:1660: checking for iconv
+configure:1678: gcc -o conftest.dSYM -g -O2   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_iconv", referenced from:
+      _main in conftest-792d1a.o
+  "_iconv_close", referenced from:
+      _main in conftest-792d1a.o
+  "_iconv_open", referenced from:
+      _main in conftest-792d1a.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 1668 "configure"
+#include "confdefs.h"
+#include <stdlib.h>
+#include <iconv.h>
+int main() {
+iconv_t cd = iconv_open("","");
+       iconv(cd,NULL,NULL,NULL,NULL);
+       iconv_close(cd);
+; return 0; }
+configure:1700: gcc -o conftest.dSYM -g -O2   conftest.c  -liconv 1>&5
+configure:1721: checking for iconv declaration
+configure:1746: gcc -c -g -O2  conftest.c 1>&5
+configure:1966: checking for charset conversion
