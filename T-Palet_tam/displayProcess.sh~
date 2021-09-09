@@ -1,0 +1,3 @@
+# 表示用のwindowを作り、システムからの応答を表示する
+
+xterm -e python Display.py

@@ -1,0 +1,31 @@
+import socket
+
+class Julius():
+    host = '127.0.0.1'   # IPアドレス
+    port = 10500         # Juliusとの通信用ポート番号
+
+    def __init__(self):
+        self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.client.connect((self.host, self.port))
+        return
+
+    def input(self):
+        try:
+            data = ''
+            while True:
+                if '</RECOGOUT>' in data:
+                    recog_text = ''
+                    for line in data.split('\n'):
+                        index = line.find('WORD="')
+                        if index != -1:
+                            line = line[index+6:line.find('"',index+6)]
+                            recog_text = recog_text + line
+                    # print("認識結果： "+recog_text)
+                    # data = ''
+                    return recog_text
+                else:
+                    data += str(self.client.recv(1024).decode('utf-8'))
+        except KeyboardInterrupt:
+            print('finished')
+            self.client.send('DIE'.encode('utf-8'))
+            self.client.clode()
