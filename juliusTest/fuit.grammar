@@ -1,0 +1,8 @@
+S       :  NS_B FRUIT_N PLEASE NS_E
+# 果物名(+数量)
+FRUIT_N :  FRUIT
+FRUIT_N :  FRUIT NUM KO
+# ください/にしてください/です
+PLEASE  :  WO KUDASAI
+PLEASE  :  NISHITE KUDASAI
+PLEASE  :  DESU

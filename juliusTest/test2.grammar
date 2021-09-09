@@ -1,0 +1,67 @@
+# top level
+S     : NS_B SENT NS_E
+S     : NS_B CONJ SENT NS_E
+
+# 実質的 start symbol
+SENT	 : D_SENT
+SENT	 : Q_SENT
+SENT	 : I_SENT
+#SENT	 : INTER
+
+# 平叙文
+D_SENT	: PRED
+D_SENT	: PP PRED
+D_SENT	: PP PP PRED
+#D_SENT	: PP PP PP PRED
+#D_SENT	: PP PP PP PP PRED
+#D_SENT	: PP D_SENT
+
+# 疑問文
+Q_SENT	: D_SENT P
+
+# 命令文
+I_SENT	: V
+I_SENT	: PP V
+#I_SENT	: PP PP V
+#I_SENT	: PP PP PP V
+#I_SENT	: PP PP PP PP V
+
+# 述語
+PRED	: PRED1
+PRED	: ADV PRED1
+PRED1	: V
+PRED1	: V P
+PRED1	: V AUX P
+PRED1	: V AUX
+PRED1	: PRE V
+PRED1	: ADJ
+#PRED	: ADV PRED
+
+# 後置詩句
+PP	: NP P
+
+# 名詞句
+NP	: N
+NP	: PRN
+#NP	: SYM
+NP	: N SUFFIX
+NP	: PREFIX N
+#NP	: PREFIX N SUFFIX
+#NP	: SENT NP
+#NP	: N NP
+
+# 終端記号
+# P:助詞
+# V:動詞
+# N:名詞
+# SYM:記号
+# PRN:代名詞
+# PRE:連体詞
+# ADV:副詞
+# AUX:助動詞
+# ADJ:形容詞
+# CONJ:接続詞
+# INTER:感動詞
+# PREFIX:接頭辞
+# SUFFIX:接尾辞
+# NS_B, NS_E

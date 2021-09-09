@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+my($list);
+
+$list = $ARGV[1];
+
+print $list;
+
+
+
+    

@@ -1,0 +1,44 @@
+# top level
+S     : SENT
+S     : CONJ SENT
+
+# 実質的 start symbol
+SENT	 : D_SENT
+SENT	 : Q_SENT
+SENT	 : I_SENT
+
+# 平叙文
+D_SENT	: PRED
+D_SENT	: PP D_SENT
+
+# 疑問文
+Q_SENT	: D_SENT P
+
+# 命令文
+I_SENT	: VP
+I_SENT	: PP I_SENT
+
+# 述語
+PRED	: ADV PRED
+PRED	: V
+PRED	: V P
+PRED	: V AUX P
+PRED	: V AUX
+PRED	: ADJ
+
+# 後置詩句
+PP	: NP P
+
+# 名詞句
+NP	: N
+NP	: NP N
+NP	: PRED NP
+
+# 終端記号
+# P:助詞
+# V:動詞
+# N:名詞
+# ADV:副詞
+# AUX:助動詞
+# ADJ:形容詞
+# CONJ:接続詞

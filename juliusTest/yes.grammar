@@ -1,0 +1,8 @@
+S	: NS_B SENT NS_E
+
+SENT	: V
+SENT	: N
+SENT	: W
+SENT	: ADV
+SENT	: FORM
+SENT	: ADJ
