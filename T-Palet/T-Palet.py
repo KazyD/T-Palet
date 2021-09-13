@@ -13,7 +13,7 @@
 import sys
 import re
 
-sys.path.append('/Users/tam/prog/T-Palet')
+sys.path.append('/Users/deikazuki/T-Palet-Project/T-Palet')
 import TObject as t
 import Speaker as s
 import MyException
@@ -30,6 +30,8 @@ refB = None
 sp = s.Speaker()
 # 話題スタックの深さ
 l = 3
+# 聞き返しの上限
+lim = 3
 
 # ローカルな関数群
 # 話題とする一つの対象を決める
@@ -63,6 +65,20 @@ def pop():
     return stk.pop()
 def empty():
     return stk == []
+
+# 新しい話題
+def newTopic():
+    # ここにDBから不足の情報を見つけ、それをトピックにする機能を実装
+    line = sp.askAndSet(ideal.surf+'、'+current.surf+'、'+refA.surf+'、'+refB.surf+'について、何か補足はありますか？')
+    return 'End',None,None,None
+
+# 最後の出力
+def output():
+    ideal.print()
+    current.print()
+    refA.print()
+    refB.print()
+    return
 
 # ラダーリングのための4つの関数
 def pairEvaluation(ref1,ref2):
@@ -129,7 +145,7 @@ def pairEvaluation(ref1,ref2):
 #
 def soloEvaluation(ref,atr,suchthat):
     """
-    Solo Evaluation: 対象（ref）を単独で評価する 
+    Solo Evaluation: 対象（ref）を単独で評価する
     ref: 調べる対象TObject
     atr: 焦点となった属性
     suchthat: 条件
@@ -185,13 +201,13 @@ def ladderUp(ref,ref1,atr):
     ref1: 参照TObject
     atr: 焦点の属性
     返却値：対象、属性
-       
+
     目的：優位対象(upper)について、優れた要素(atr)を探し、評価の観点（理由）を求める
     発話意図：優れたとされた理由を求めること
     発話プラン：
     1. 手続きSoloEvaluation(ref,atr,suchthat:良い理由)
     1に失敗した場合：
-    　　手続きPairEvaluation(ref, ref1, atr, suchthat(is(ref, atr, Val1) & 
+    　　手続きPairEvaluation(ref, ref1, atr, suchthat(is(ref, atr, Val1) &
             is(ref1,atr, Val2) & Val1 > Val2))
     2. 発話(確認, is(upper, atr, ‘high’))
     3. 発話(質問, why(is(upper, atr, ‘high’)))
@@ -222,12 +238,12 @@ def ladderDown(ref,ref1,atr):
     ref1: 参照TObject
     atr: 焦点の属性
     返却値：対象、属性
-       
+
     目的：下位対象(lower)について、negative要素(atr)を探し、具体的な改善方法を問う
     発話意図：negative要素の改善策、例の提示
     発話プラン：
     1. 手続きSoloEvaluation(lower, attr, suchthat(is(lower, attr, ‘low’)))
-    or 手続きSoloEvaluation(lower, attr, suchthat(is(lower, attr, ‘negative’))) 
+    or 手続きSoloEvaluation(lower, attr, suchthat(is(lower, attr, ‘negative’)))
     1に失敗した場合：
         手続きPairEvaluation(lower, ref, attr, suchthat(is(lower, attr, Val1) & is(ref,attr,Val2) & Val1<Val2)))
     2. 発話(確認, is(lower, attr, ‘low’))
@@ -254,7 +270,7 @@ def ladderDown(ref,ref1,atr):
         else:
             sp.speak('質問を変えます')
             return
-    
+
 # 初期化（質問省略版）
 def initA():
     global ideal,current,refA,refB
@@ -275,10 +291,9 @@ def initA():
 # 初期化。会話により入力
 def initB():
     global ideal,current,refA,refB
+    global sp
     # 理想の人の入力
     name = sp.ask('理想の人の名前を教えてください？')
-    print("AAA")
-    print(name)
     ideal = t.TObject(name)
     level = sp.ask(name+'さんのレベルはいくつですか（1〜10）？')
     ideal.set('level',level)
@@ -292,29 +307,35 @@ def initB():
     name = sp.ask('参考人の名前を教えてください？')
     refA = t.TObject(name)
     level = sp.ask(name+'さんのレベルはいくつですか（1〜10）？')
-    refA.set('level',level)    
+    refA.set('level',level)
     # 参照2の入力
     name = sp.ask('もう一人の参考人の名前を教えてください（1〜10）？')
     refB = t.TObject(name)
     level = sp.ask(name+'さんのレベルはいくつですか（1〜10）？')
-    refB.set('level',level)   
+    refB.set('level',level)
     return
 
 # プロフィールつくり
 def profile(ref):
+    global sp
+    global lim
     #
     sp.speak(ref.surf+'さんについて、教えてください。例えば、「身長は170ｃｍです」みたいに。')
-    rep = sp.askAtrVal('「終わり」で終了です。')
+    rep = sp.askAtrVal('「終わり」で終了です。',lim)
     while True:
         if rep == 'end':
+            break
+        elif rep == 'giveup':
+            sp.speak('ちょっと聞き取れませんでした。')
+            return
             break
         else:
             atr,val = rep
             ref.set(atr,val)
-            rep = sp.askAtrVal('他には？')
-    sp.speak('ありがとうございました。')
+            rep = sp.askAtrVal('他にはありますか？',lim)
+    sp.speak(ref.surf + 'さんについて、属性が入力されました。ありがとうございました。')
     return
-
+"""
     while True:
         rep = sp.ask(q)
         if rep == 'end':
@@ -327,21 +348,7 @@ def profile(ref):
                 break
         else:
             sp.speak('よく分かりません。「身長は170ｃｍです」の様に答えてください')
-    
-
-# 新しい話題
-def newTopic():
-    # ここにDBから不足の情報を見つけ、それをトピックにする機能を実装
-    line = sp.askAndSet(ideal.surf+'、'+current.surf+'、'+refA.surf+'、'+refB.surf+'について、何か補足はありますか？')
-    return 'End',None,None,None
-
-# 最後の出力
-def output():
-    ideal.print()
-    current.print()
-    refA.print()
-    refB.print()
-    return
+"""
 
 # メインプログラム
 if __name__ == '__main__':
@@ -352,20 +359,20 @@ if __name__ == '__main__':
         initA()
         # 初期化。会話により入力
         #initB()
-        
+
         # ここから会話のスタート
         # まず、4人のプロフィールについて
-        sp.speak('まず、'+ideal.surf+'さんについて教えてください')
+        # sp.speak('まず、'+ideal.surf+'さんについて教えてください')
         profile(ideal)
-        sp.speak('次に、'+current.surf+'さんについて教えてください')
-        profile(current)
+        # sp.speak('次に、'+current.surf+'さんについて教えてください')
+        # profile(current)
         # sp.speak('ついでに、'+refA.surf+'さんについて教えてください')
         # profile(refA)
-        # sp.speak('おまけで、'+refB.surf+'さんについて教えてください')    
+        # sp.speak('おまけで、'+refB.surf+'さんについて教えてください')
         # profile(refB)
         # はじまり
         # idealとcurrentを比較してみよう（とりあえずこれは動かす）
-        pairEvaluation(ideal,current)
+        # pairEvaluation(ideal,current)
     # ここでの例外＝「終了」
     except Exception as ex:
         if ex.code == 'exit1':
@@ -375,7 +382,7 @@ if __name__ == '__main__':
             pass
 
     # スタック（積み残しの話題）と、新しい話題の取り込み付
-    while True:
+    while False:
         if not empty():
             type,ref1,ref2,atr = pop()
             if type == 'PairEvaluation':
@@ -407,4 +414,7 @@ if __name__ == '__main__':
         elif type == 'End':
             break
     # おしまい
+    print("---"*10)
     output()
+    sp.speak('終わります。\n\n\n')
+    sp.close()

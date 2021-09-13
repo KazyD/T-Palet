@@ -145,7 +145,7 @@ def pairEvaluation(ref1,ref2):
 #
 def soloEvaluation(ref,atr,suchthat):
     """
-    Solo Evaluation: 対象（ref）を単独で評価する 
+    Solo Evaluation: 対象（ref）を単独で評価する
     ref: 調べる対象TObject
     atr: 焦点となった属性
     suchthat: 条件
@@ -201,13 +201,13 @@ def ladderUp(ref,ref1,atr):
     ref1: 参照TObject
     atr: 焦点の属性
     返却値：対象、属性
-       
+
     目的：優位対象(upper)について、優れた要素(atr)を探し、評価の観点（理由）を求める
     発話意図：優れたとされた理由を求めること
     発話プラン：
     1. 手続きSoloEvaluation(ref,atr,suchthat:良い理由)
     1に失敗した場合：
-    　　手続きPairEvaluation(ref, ref1, atr, suchthat(is(ref, atr, Val1) & 
+    　　手続きPairEvaluation(ref, ref1, atr, suchthat(is(ref, atr, Val1) &
             is(ref1,atr, Val2) & Val1 > Val2))
     2. 発話(確認, is(upper, atr, ‘high’))
     3. 発話(質問, why(is(upper, atr, ‘high’)))
@@ -238,12 +238,12 @@ def ladderDown(ref,ref1,atr):
     ref1: 参照TObject
     atr: 焦点の属性
     返却値：対象、属性
-       
+
     目的：下位対象(lower)について、negative要素(atr)を探し、具体的な改善方法を問う
     発話意図：negative要素の改善策、例の提示
     発話プラン：
     1. 手続きSoloEvaluation(lower, attr, suchthat(is(lower, attr, ‘low’)))
-    or 手続きSoloEvaluation(lower, attr, suchthat(is(lower, attr, ‘negative’))) 
+    or 手続きSoloEvaluation(lower, attr, suchthat(is(lower, attr, ‘negative’)))
     1に失敗した場合：
         手続きPairEvaluation(lower, ref, attr, suchthat(is(lower, attr, Val1) & is(ref,attr,Val2) & Val1<Val2)))
     2. 発話(確認, is(lower, attr, ‘low’))
@@ -270,7 +270,7 @@ def ladderDown(ref,ref1,atr):
         else:
             sp.speak('質問を変えます')
             return
-    
+
 # 初期化（質問省略版）
 def initA():
     global ideal,current,refA,refB
@@ -307,12 +307,12 @@ def initB():
     name = sp.ask('参考人の名前を教えてください？')
     refA = t.TObject(name)
     level = sp.ask(name+'さんのレベルはいくつですか（1〜10）？')
-    refA.set('level',level)    
+    refA.set('level',level)
     # 参照2の入力
     name = sp.ask('もう一人の参考人の名前を教えてください（1〜10）？')
     refB = t.TObject(name)
     level = sp.ask(name+'さんのレベルはいくつですか（1〜10）？')
-    refB.set('level',level)   
+    refB.set('level',level)
     return
 
 # プロフィールつくり
@@ -345,14 +345,14 @@ if __name__ == '__main__':
         initA()
         # 初期化。会話により入力
         #initB()
-        
+
         # ここから会話のスタート
         # まず、4人のプロフィールについて
         profile(ideal)
         # profile(current)
         # sp.speak('ついでに、'+refA.surf+'さんについて教えてください')
         # profile(refA)
-        # sp.speak('おまけで、'+refB.surf+'さんについて教えてください')    
+        # sp.speak('おまけで、'+refB.surf+'さんについて教えてください')
         # profile(refB)
         # はじまり
         # idealとcurrentを比較してみよう（とりあえずこれは動かす）
@@ -403,4 +403,3 @@ if __name__ == '__main__':
     output()
     sp.speak('終わります。\n\n\n')
     sp.close()
-

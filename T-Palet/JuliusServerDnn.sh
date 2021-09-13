@@ -4,7 +4,7 @@
 # システム起動前に、このサーバを立ち上げること
 # サーバーとしての常駐は当面保留！！！
 
-cd /Users/tam/prog/dictation-kit-v4.3.1-osx
+cd /Users/deikazuki/T-Palet-Project-Julius/dictation-kit-v4.3.1-osx
 
 # 以下、dnn版（深層学習版）
 bin/julius -C main.jconf -C am-dnn.jconf -module $* &

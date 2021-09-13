@@ -1,6 +1,7 @@
 import socket
 import os
 import time
+import Client as w
 
 HOST = '127.0.0.1'   # IPアドレス
 PORT = 10500         # Juliusとの通信用ポート番号
@@ -20,10 +21,9 @@ class Julius():
             print('Please wait for 10 sec.')
             self.pid = os.fork()
             if self.pid != 0:
-                os.execl('/Users/deikazuki/Julius/T-Palet/JuliusServerDnn.sh','JuliusServerDnn.sh')
+                os.execl('/Users/deikazuki/T-Palet-Project/Julius/T-Palet/JuliusServerDnn.sh','JuliusServerDnn.sh')
                 time.sleep(5)
                 os.wait()
-
             else:
                 time.sleep(5)
                 self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -46,12 +46,17 @@ class Julius():
                     return recog_text
                 else:
                     data += str(self.client.recv(1024).decode('utf-8'))
-                    # print("data : ",data)
         except KeyboardInterrupt:
             print('finished')
-            #self.client.send('DIE'.encode('utf-8'))
-            #self.client.close()
+            self.client.send('DIE'.encode('utf-8'))
+            self.client.close()
             return 'キーボード割り込みで終わり'
+
+    # Juliusの停止
+    def close(self):
+        self.client.send('DIE'.encode('utf-8'))
+        self.client.close()
+        return
 
 if __name__ == "__main__":
 
@@ -62,5 +67,6 @@ if __name__ == "__main__":
         if '終わり' in text:
             julius.client.send('DIE'.encode('utf-8'))
             julius.client.close()
+            # 下はJulius.pyを動かした際にClient.pyが正しく終了しなかったためコメントアウト
+            # w.exit()
             break
-
