@@ -13,7 +13,7 @@
 import sys
 import re
 
-sys.path.append('/Users/deikazuki/T-Palet-Project/T-Palet')
+sys.path.append('/Users/tam/prog/T-Palet')
 import TObject as t
 import Speaker as s
 import MyException
@@ -332,23 +332,9 @@ def profile(ref):
         else:
             atr,val = rep
             ref.set(atr,val)
-            rep = sp.askAtrVal('他にはありますか？',lim)
+            rep = sp.askAtrVal('他に入力はありますか？',lim)
     sp.speak(ref.surf + 'さんについて、属性が入力されました。ありがとうございました。')
     return
-"""
-    while True:
-        rep = sp.ask(q)
-        if rep == 'end':
-            break
-        for p in avPtn:
-            result = p.match(rep)
-            if result:
-                yesNo = sp.ask(ref.surf+'さんの'+result.group(1)+'は'+result.group(3)+'で、いいですか？')
-                ref.set(result.group(1),result.group(3))
-                break
-        else:
-            sp.speak('よく分かりません。「身長は170ｃｍです」の様に答えてください')
-"""
 
 # メインプログラム
 if __name__ == '__main__':
@@ -362,9 +348,7 @@ if __name__ == '__main__':
 
         # ここから会話のスタート
         # まず、4人のプロフィールについて
-        # sp.speak('まず、'+ideal.surf+'さんについて教えてください')
         profile(ideal)
-        # sp.speak('次に、'+current.surf+'さんについて教えてください')
         # profile(current)
         # sp.speak('ついでに、'+refA.surf+'さんについて教えてください')
         # profile(refA)
@@ -377,6 +361,7 @@ if __name__ == '__main__':
     except Exception as ex:
         if ex.code == 'exit1':
             sp.speak('途中ですが、終わります')
+            sp.close()
             exit()
         else:
             pass
