@@ -1,5 +1,7 @@
 import re
 import MeCab
+import collections
+import pykakasi
 
 class preProcessing():
 
@@ -21,13 +23,13 @@ class preProcessing():
         # 1ファイルずつ処理
         for i in range(1,130):
             ln=0
-            print(i)
+            # print(i)
             fr = open(f'/Users/deikazuki/T-Palet-Project/juliusTest/nuccText/data{i:03d}.txt','r')
             fw = open(f'/Users/deikazuki/T-Palet-Project/juliusTest/cleanText/data{i:03d}.txt','w')
             # 1行ずつ処理
             while True:
                 ln += 1
-                print('---',ln)
+                # print('---',ln)
                 line = fr.readline()
                 l = fr.tell()
                 line = re.sub('\n','',line)
@@ -88,31 +90,82 @@ class preProcessing():
         fw.close()
 
     def parse(self):
+        w = []
         # MeCabインスタンス
-        m = MeCab.Tagger('-Owakati')
+        # m = MeCab.Tagger('-Owakati')
+        m = MeCab.Tagger ('-Ochasen')
         #
-        for i in range(1,129):
+        for i in range(1,130):
             fr = open(f'/Users/deikazuki/T-Palet-Project/juliusTest/cleanText/data{i:03d}.txt','r')
-            fr = open(f'/Users/deikazuki/T-Palet-Project/juliusTest/parsedText/data{i:03d}.txt','w')
+            fw = open(f'/Users/deikazuki/T-Palet-Project/juliusTest/parsedText/data{i:03d}.txt','w')
+            # print(fr)
+            # print(fw)
             # 1行づつ処理
+            text = fr.read()
+            node = m.parseToNode(text)
+            while node:
+                w.append(node.surface)
+                node = node.next
+            # fw.write(text)
+            """
             while True:
                 line = fr.readline()
+                line = re.sub('\n', '', line)
+                print(line)
                 # EOFの場合にループを抜ける
                 if not line:
                     break
                 # 分かち書き
                 result = m.parse(line)
-                fw.write(result,'\n')
+                # print(result)
+                fw.write(result)
+                w.append(result)
+            """
             # クローズ
             fr.close()
             fw.close()
 
+            return w
+
     def normalization(self):
         return
+
+    def count(self,words):
+        word = '(\')(.*)(\')'
+        comp = re.compile(word)
+        fw = open('/Users/deikazuki/T-Palet-Project/juliusTest/wordsFreq.txt','w')
+        c = collections.Counter(words)
+        # mc = c.most_common(2000)
+        w, num  = zip(*c.most_common(2000))
+
+        # 漢字 → 平仮名
+        k = pykakasi.kakasi()
+        # k.setMode('J', 'H')
+        # conv = k.getConverter()
+
+        #result = comp.match(words)
+        print(w)
+        print(type(w))
+
+        for i in range(len(w)):
+            wc = k.convert(w[i])
+            fw.write(wc[0]['hira'])
+            fw.write(' ')
+
+        return
+
 
 if __name__ == "__main__":
     pp = preProcessing()
 
-    pp.cleaning()
-    # pp.parse()
+    #pp.cleaning()
+    print('cleaning has finished !')
+
+    words = pp.parse()
+    print(words)
+    print('parsing has finished !')
+
     # pp.normalization()
+
+    pp.count(words)
+    print('counting has finished !')
