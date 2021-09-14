@@ -5,60 +5,75 @@
 # ex) ./extract.pl wordsFreq.txt dict2.csv
 #
 
-if (@ARGV != 2) {
-    print "Usage extract.pl \"はい　そう　うん\" dict.csv\n";
-    exit;
-}
+#if (@ARGV != 2) {
+    #print "Usage extract.pl \"はい　そう　うん\" dict.csv\n";
+    #exit;
+#}
 
 # get pattern
-# $_ = $ARGV[0];
-#FREQFILE = shift @ARGV;
-#open($_, $FREQFILE);
-open($wf, '< wordsFreq.txt');
-print $wf;
-my @list = split;
+$pf = 'wordsFreq.txt';
+open(PT, '<', $pf);
+@list = ();
+while (<PT>){
+    chomp;
+    our @list = split(/\s+/, $_)
+}
+
 
 # open dict file
-my $dictfile = 'dict2.csv';
-open($DF, "<", $dictfile);
+$dictfile = 'dict2.csv';
+open(DF, "<", $dictfile);
+
+#-----------ここまでok-------------
+
 
 # open output file
-open($fh, "> freq.voca") or die("error :$!");
+$outputfile = 'freq.voca';
+open(OF, ">", $outputfile);
 
-#my $o_file = "freq.voca";
-#open my $fh, '>', $o_file or die "Can't open \"$o_file\": $!";
-print @list;
+#-----------多分ok(freqがひらけてるかどうかの確認ができない)--------
+
 # まず、listにある語を抽出
 @ex = ();
-while (<DF>) {
+while (my $df = <DF>) {
     chomp;
     foreach $w (@list) {
+      # print $w;
 	    #	if (/^($w),(.+),\"(.+)\"$/) {
 	    if (/^($w),\s(.+),\s"(.+)"$/) {
 	       push(@ex,"$1,$2,$3");
-         print 1;
+         # print @ex;
 	    }
-      print 2;
+      # print 2;
     }
 }
 
+#-----------動く-------------
 
 # カテゴリ順にsort
 @exsorted = sort byCat @ex;
 
 # カテゴリ毎に出力
+# foreachの中に入ってない
 $cat = '?';
+print @exsorted;
 foreach $w (@exsorted) {
+    print 2;
     $w =~ /^(.+),(.+),(.+)$/;
     # それまでのカテゴリと異なっていたらカテゴリ名を出力
     if ($cat ne $2) {
-	$cat = $2;
-	print $fh "% $2\n";
+	     $cat = $2;
+	      print "% $2\n";
     }
     # 要素の出力
-    print $fh "$1\t$3\n";
+    print "$1\t$3\n";
 }
+
+
 # おしまい
+close (PT);
+close (DF);
+close (OF);
 exit;
 
 # カテゴリのところ（2個目）で順序づけ
