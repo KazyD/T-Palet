@@ -127,16 +127,40 @@ class preProcessing():
 
             return w
 
-    def normalization(self):
-        return
+    def split(self):
+        fo = open('/Users/deikazuki/T-Palet-Project/juliusTest/parsed.txt','r')
+        word = '(.+)(\s+)(.+)'
+        comp = re.compile(word)
+        headlist=[]
+
+        line = fo.readline()
+        line =fo.readline()
+        line = fo.readline()
+        line =fo.readline()
+        line = fo.readline()
+        line =fo.readline()
+        line = fo.readline()
+        line =fo.readline()
+
+        print(line)
+
+        while line:
+            m = comp.match(line)
+            head = m.group(1)
+            headlist.append(head)
+            line = fo.readline()
+
+        fo.close()
+
+        return headlist
 
     def count(self,words):
         word = '(\')(.*)(\')'
         comp = re.compile(word)
-        fw = open('/Users/deikazuki/T-Palet-Project/juliusTest/wordsFreq.txt','w')
+        fw = open('/Users/deikazuki/T-Palet-Project/juliusTest/words.txt','w')
         c = collections.Counter(words)
         # mc = c.most_common(2000)
-        w, num  = zip(*c.most_common(2000))
+        w, num  = zip(*c.most_common(1000))
 
         # 漢字 → 平仮名
         k = pykakasi.kakasi()
@@ -157,15 +181,31 @@ class preProcessing():
 
 if __name__ == "__main__":
     pp = preProcessing()
+    # f = open('/Users/deikazuki/T-Palet-Project/juliusTest/words.txt','w')
 
     #pp.cleaning()
-    print('cleaning has finished !')
+    #print('cleaning has finished !')
 
-    words = pp.parse()
-    print(words)
-    print('parsing has finished !')
+    #words = pp.parse()
+    #print(words)
+    #print('parsing has finished !')
 
     # pp.normalization()
 
-    pp.count(words)
-    print('counting has finished !')
+    heads = pp.split()
+
+    print(heads)
+
+    for i in range(len(heads)):
+        print(heads[i],end='')
+        print('',end='')
+
+"""
+    for i in range(len(heads)):
+        f.write(heads[i])
+        f.write(' ')
+"""
+    # f.close()
+
+    #pp.count(words)
+    #print('counting has finished !')

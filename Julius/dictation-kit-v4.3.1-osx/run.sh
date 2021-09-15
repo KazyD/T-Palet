@@ -1,3 +1,3 @@
 #! /bin/sh
 
-./bin/julius -C main.jconf -C am-gmm.jconf -demo $*
+./bin/julius -C main.jconf -C am-gmm.jconf -demo -nostrip $*
