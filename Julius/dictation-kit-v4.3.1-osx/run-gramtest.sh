@@ -1,0 +1,1 @@
+./bin/julius -C gramtest.jconf -nostrip $*

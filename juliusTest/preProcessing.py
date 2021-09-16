@@ -128,21 +128,12 @@ class preProcessing():
             return w
 
     def split(self):
-        fo = open('/Users/deikazuki/T-Palet-Project/juliusTest/parsed.txt','r')
+        fo = open('/Users/deikazuki/T-Palet-Project/juliusTest/mecabed.txt','r')
         word = '(.+)(\s+)(.+)'
         comp = re.compile(word)
         headlist=[]
 
         line = fo.readline()
-        line =fo.readline()
-        line = fo.readline()
-        line =fo.readline()
-        line = fo.readline()
-        line =fo.readline()
-        line = fo.readline()
-        line =fo.readline()
-
-        print(line)
 
         while line:
             m = comp.match(line)
@@ -157,10 +148,10 @@ class preProcessing():
     def count(self,words):
         word = '(\')(.*)(\')'
         comp = re.compile(word)
-        fw = open('/Users/deikazuki/T-Palet-Project/juliusTest/words.txt','w')
+        fw = open('/Users/deikazuki/T-Palet-Project/juliusTest/words3.txt','w')
         c = collections.Counter(words)
         # mc = c.most_common(2000)
-        w, num  = zip(*c.most_common(1000))
+        w, num  = zip(*c.most_common(2000))
 
         # 漢字 → 平仮名
         k = pykakasi.kakasi()
@@ -168,8 +159,8 @@ class preProcessing():
         # conv = k.getConverter()
 
         #result = comp.match(words)
-        print(w)
-        print(type(w))
+        #print(w)
+        #print(type(w))
 
         for i in range(len(w)):
             wc = k.convert(w[i])
@@ -183,29 +174,15 @@ if __name__ == "__main__":
     pp = preProcessing()
     # f = open('/Users/deikazuki/T-Palet-Project/juliusTest/words.txt','w')
 
-    #pp.cleaning()
-    #print('cleaning has finished !')
+    pp.cleaning()
 
-    #words = pp.parse()
-    #print(words)
-    #print('parsing has finished !')
+    words = pp.parse()
 
-    # pp.normalization()
+    #heads = pp.split()
 
-    heads = pp.split()
+    #for i in range(len(heads)):
+        #print(heads[i],end='')
+        #print(' ',end='')
 
-    print(heads)
-
-    for i in range(len(heads)):
-        print(heads[i],end='')
-        print('',end='')
-
-"""
-    for i in range(len(heads)):
-        f.write(heads[i])
-        f.write(' ')
-"""
-    # f.close()
-
-    #pp.count(words)
-    #print('counting has finished !')
+    pp.count(words)
+    print('finished !')

@@ -1,0 +1,1334 @@
+0	[<s>]	silB
+1	[</s>]	silE
+2	[あそこ]	a s o k o
+2	[あたし]	a t a sh i
+2	[あなた]	a n a t a
+2	[あれ]	a r e
+2	[あんた]	a N t a
+2	[いつ]	i ts u
+2	[おれ]	o r e
+2	[か]	k a
+2	[かのじょ]	k a n o j o
+2	[かん]	k a N
+2	[ここ]	k o k o
+2	[こっ]	k o q
+2	[こっち]	k o q ch i
+2	[これ]	k o r e
+2	[こん]	k o N
+2	[そ]	s o
+2	[そい]	s o i
+2	[そこ]	s o k o
+2	[そら]	s o r a
+2	[それ]	s o r e
+2	[そん]	s o N
+2	[だれ]	d a r e
+2	[どこ]	d o k o
+2	[どっち]	d o q ch i
+2	[どれ]	d o r e
+2	[なに]	n a n i
+2	[なに]	n a n i
+2	[なれ]	n a r e
+2	[なん]	n a N
+2	[ふん]	f u N
+2	[ほん]	h o N
+2	[ぼく]	b o k u
+2	[わたし]	w a t a sh i
+3	[ああ]	a:
+3	[あたふた]	a t a f u t a
+3	[あんま]	a N m a
+3	[いきおい]	i k i o i
+3	[いくら]	i k u r a
+3	[いちばん]	i ch i b a N
+3	[いったん]	i q t a N
+3	[いっぱい]	i q p a i
+3	[いよいよ]	i y o i y o
+3	[いろいろ]	i r o i r o
+3	[うんと]	u N t o
+3	[え]	e
+3	[え]	e
+3	[か]	k a
+3	[かう]	k o:
+3	[かえって]	k a e q t e
+3	[かっ]	k a q
+3	[かっ]	k a q
+3	[かって]	k a q t e
+3	[かって]	k a q t e
+3	[かならず]	k a n a r a z u
+3	[かん]	k a N
+3	[が]	g a
+3	[がら]	g a r a
+3	[きっ]	k i q
+3	[きっと]	k i q t o
+3	[きら]	k i r a
+3	[きら]	k i r a
+3	[きら]	k i r a
+3	[くっ]	k u q
+3	[くるくる]	k u r u k u r u
+3	[けっこう]	k e q k o:
+3	[こう]	k o:
+3	[こん]	k o N
+3	[ごそごそ]	g o s o g o s o
+3	[さ]	s a
+3	[さあ]	s a:
+3	[さすが]	s a s u g a
+3	[しっかり]	sh i q k a r i
+3	[しぶしぶ]	sh i b u sh i b u
+3	[じゅうぶん]	j u: b u N
+3	[すぐ]	s u g u
+3	[すでに]	s u d e n i
+3	[ずいぶん]	z u i b u N
+3	[ずっと]	z u q t o
+3	[ぜんぜん]	z e N z e N
+3	[そ]	s o
+3	[そう]	s o:
+3	[たくさん]	t a k u s a N
+3	[ただ]	t a d a
+3	[たっぷり]	t a q p u r i
+3	[たぶん]	t a b u N
+3	[たん]	t a N
+3	[たん]	t a N
+3	[だいぶ]	d a i b u
+3	[だっ]	d a q
+3	[だん]	d a N
+3	[だんだん]	d a N d a N
+3	[だー]	d a:
+3	[ち]	ch i
+3	[ちゃんと]	ch a N t o
+3	[ちょうど]	ch o: d o
+3	[ちょっと]	ch o q t o
+3	[ちょん]	ch o N
+3	[つい]	ts u i
+3	[つい]	ts u i
+3	[つい]	ts u i
+3	[でん]	d e N
+3	[と]	t o
+3	[とにかく]	t o n i k a k u
+3	[とりあえず]	t o r i a e z u
+3	[ど]	d o
+3	[どう]	d o:
+3	[どきどき]	d o k i d o k i
+3	[どー]	d o:
+3	[ば]	b a
+3	[ば]	b a
+3	[ばっ]	b a q
+3	[ばん]	b a N
+3	[ぱさぱさ]	p a s a p a s a
+3	[ぱっ]	p a q
+3	[び]	b i
+3	[びしっ]	b i sh i q
+3	[ぴんぽーん]	p i N p o: N
+3	[ぴー]	p i:
+3	[ふい]	f u i
+3	[ふらふら]	f u r a f u r a
+3	[ぷりぷり]	p u r i p u r i
+3	[ぷんぷん]	p u N p u N
+3	[ほ]	h o
+3	[ほう]	h o:
+3	[ま]	m a
+3	[まあ]	m a:
+3	[まず]	m a z u
+3	[また]	m a t a
+3	[まだ]	m a d a
+3	[もう]	m o:
+3	[もし]	m o sh i
+3	[もちろん]	m o ch i r o N
+3	[もともと]	m o t o m o t o
+3	[やっぱ]	y a q p a
+3	[やっぱり]	y a q p a r i
+3	[ゆめ]	y u m e
+3	[よう]	y o:
+3	[よく]	y o k u
+3	[より]	y o r i
+3	[らん]	r a N
+3	[わざわざ]	w a z a w a z a
+3	[わん]	w a N
+4	[き]	k i
+4	[き]	k i
+4	[き]	k i
+4	[さし]	s a sh i
+4	[し]	sh i
+4	[しか]	sh i k a
+4	[じ]	j i
+4	[じゃ]	j a
+4	[じゃあ]	j a:
+4	[す]	s u
+4	[す]	z u
+4	[ず]	z u
+4	[た]	t a
+4	[たい]	t a i
+4	[たい]	t a i
+4	[たい]	t a i
+4	[たかっ]	t a k a q
+4	[たき]	t a k i
+4	[たく]	t a k u
+4	[たら]	t a r a
+4	[たり]	t a r i
+4	[だ]	d a
+4	[だっ]	d a q
+4	[だら]	d a r a
+4	[だろ]	d a r o
+4	[だー]	d a:
+4	[ちゃ]	ch a
+4	[ちゃう]	ch a u
+4	[ちゃお]	ch a o
+4	[ちゃっ]	ch a q
+4	[ちゃん]	ch a N
+4	[って]	t e
+4	[つ]	ts u
+4	[つい]	ts u i
+4	[つい]	ts u i
+4	[つい]	ts u i
+4	[つっ]	ts u q
+4	[て]	t e
+4	[て]	t e
+4	[てき]	t e k i
+4	[てる]	t e r u
+4	[てん]	t e N
+4	[で]	d e
+4	[でしょ]	d e sh o
+4	[です]	d e s u
+4	[でる]	d e r u
+4	[でん]	d e N
+4	[と]	t o
+4	[とい]	t o i
+4	[とう]	t o:
+4	[とう]	t o:
+4	[とか]	t o k a
+4	[とき]	t o k i
+4	[とき]	t o k i
+4	[とっ]	t o q
+4	[とっ]	t o q
+4	[とら]	t o r a
+4	[とり]	t o r i
+4	[とり]	t o r i
+4	[とる]	t o r u
+4	[とれ]	t o r e
+4	[とれ]	t o r e
+4	[とれ]	t o r e
+4	[どる]	d o r u
+4	[な]	n a
+4	[な]	n a N
+4	[ない]	n a i
+4	[なかっ]	n a k a q
+4	[なきゃ]	n a ky a
+4	[なく]	n a k u
+4	[なくっ]	n a k u q
+4	[なら]	n a r a
+4	[なる]	n a r u
+4	[なれ]	n a r e
+4	[に]	n i
+4	[ね]	n e
+4	[ね]	n e
+4	[ねえ]	n e:
+4	[ねー]	n e:
+4	[はっ]	h a q
+4	[へん]	h e N
+4	[へん]	h e N
+4	[へん]	h e N
+4	[ま]	m a
+4	[まい]	m a i
+4	[まい]	m a i
+4	[まし]	m a sh i
+4	[ます]	m a s u
+4	[ませ]	m a s e
+4	[まっ]	m a q
+4	[め]	m e
+4	[や]	y a
+4	[や]	y a
+4	[やっ]	y a q
+4	[よっ]	y o q
+4	[よる]	y o r u
+4	[ら]	r a
+4	[られ]	r a r e
+4	[らん]	r a N
+4	[れ]	r e
+4	[れ]	r e
+4	[れる]	r e r u
+4	[ん]	N N N
+4	[ん]	N N N
+5	[い]	i
+5	[い]	i
+5	[え]	e
+5	[え]	e
+5	[か]	g a
+5	[か]	k a
+5	[かな]	k a n a
+5	[から]	k a r a
+5	[が]	g a
+5	[がー]	g a:
+5	[くらい]	k u r a i
+5	[くらい]	k u r a i
+5	[ぐらい]	g u r a i
+5	[け]	k e
+5	[け]	k e
+5	[けど]	k e d o
+5	[けん]	k e N
+5	[けん]	k e N
+5	[こそ]	k o s o
+5	[さ]	s a
+5	[さあ]	s a:
+5	[さえ]	s a e
+5	[し]	sh i
+5	[しか]	sh i k a
+5	[じゃ]	j a
+5	[じゃあ]	j a:
+5	[じゃん]	j a N
+5	[ずつ]	z u ts u
+5	[ぜ]	z e
+5	[ぞう]	z o:
+5	[たって]	t a q t e
+5	[たら]	t a r a
+5	[たり]	t a r i
+5	[だけ]	d a k e
+5	[だって]	d a q t e
+5	[ちゃ]	ch a
+5	[っきゃ]	ky a
+5	[っけ]	k e
+5	[って]	t e
+5	[っと]	t o
+5	[つ]	ts u
+5	[つつ]	ts u ts u
+5	[て]	t e
+5	[て]	t e
+5	[で]	d e
+5	[と]	t o
+5	[とも]	t o m o
+5	[ど]	d o
+5	[な]	n a
+5	[なあ]	n a:
+5	[ながら]	n a g a r a
+5	[なん]	n a N
+5	[なんか]	n a N k a
+5	[なんて]	n a N t e
+5	[なんと]	n a N t o
+5	[なー]	n a:
+5	[に]	n i
+5	[ね]	n e
+5	[ね]	n e
+5	[ねえ]	n e:
+5	[ねん]	n e N
+5	[ねー]	n e:
+5	[の]	n o
+5	[のん]	n o N
+5	[は]	b a
+5	[は]	w a
+5	[ば]	b a
+5	[ば]	b a
+5	[へ]	e
+5	[まで]	m a d e
+5	[も]	m o
+5	[もの]	m o n o
+5	[もの]	m o n o
+5	[もん]	m o N
+5	[や]	y a
+5	[や]	y a
+5	[よ]	y o
+5	[よう]	y o:
+5	[より]	y o r i
+5	[わ]	w a
+5	[わあ]	w a:
+5	[を]	o
+5	[ん]	N N N
+6	[あ]	a
+6	[あ]	a N
+6	[あ]	a q
+6	[あい]	a i
+6	[あい]	a i
+6	[あい]	a i
+6	[あう]	a u
+6	[あき]	a k i
+6	[あきらめ]	a k i r a m e
+6	[あげ]	a g e
+6	[あげる]	a g e r u
+6	[あそび]	a s o b i
+6	[あっ]	a q
+6	[あっ]	a q
+6	[あら]	a r a
+6	[あり]	a r i
+6	[ある]	a r u
+6	[あるい]	a r u i
+6	[あるき]	a r u k i
+6	[あれ]	a r e
+6	[あん]	a N
+6	[い]	i
+6	[い]	i
+6	[いい]	i:
+6	[いい]	i:
+6	[いう]	i u
+6	[いう]	i u
+6	[いう]	y u:
+6	[いう]	y u:
+6	[いえ]	i e
+6	[いえ]	i e
+6	[いか]	i k a
+6	[いき]	i k i
+6	[いく]	i k u
+6	[いく]	i k u
+6	[いけ]	i k e
+6	[いけ]	i k e
+6	[いけ]	i k e
+6	[いこ]	i k o
+6	[いただけ]	i t a d a k e
+6	[いっ]	i q
+6	[いっ]	i q
+6	[いで]	i d e
+6	[いり]	i r i
+6	[いる]	i r u
+6	[いる]	i r u
+6	[いれ]	i r e
+6	[いろ]	i r o
+6	[いわ]	i w a
+6	[う]	u
+6	[うえ]	u e
+6	[うごか]	u g o k a
+6	[うごか]	u g o k a
+6	[うっ]	u q
+6	[うっ]	u q
+6	[うつっ]	u ts u q
+6	[え]	e
+6	[え]	e
+6	[えらん]	e r a N
+6	[おい]	o i
+6	[おう]	o u
+6	[おう]	o:
+6	[おき]	o k i
+6	[おこっ]	o k o q
+6	[おさ]	o s a
+6	[おし]	o sh i
+6	[おし]	o sh i
+6	[おす]	o s u
+6	[おっ]	o q
+6	[おもい]	o m o i
+6	[おもう]	o m o u
+6	[おもう]	o m o:
+6	[おもえ]	o m o e
+6	[おもっ]	o m o q
+6	[おもわ]	o m o w a
+6	[おり]	o r i
+6	[おり]	o r i
+6	[おりる]	o r i r u
+6	[おれ]	o r e
+6	[かい]	k a i
+6	[かい]	k a i
+6	[かい]	k a i
+6	[かう]	k a u
+6	[かえる]	k a e r u
+6	[かから]	k a k a r a
+6	[かかる]	k a k a r u
+6	[かぎ]	k a g i
+6	[かけ]	k a k e
+6	[かっ]	k a q
+6	[かっ]	k a q
+6	[かなっ]	k a n a q
+6	[かね]	k a n e
+6	[かぶっ]	k a b u q
+6	[かま]	k a m a
+6	[から]	k a r a
+6	[かん]	k a N
+6	[かんじ]	k a N j i
+6	[かんじ]	k a N j i
+6	[き]	k i
+6	[き]	k i
+6	[き]	k i
+6	[きい]	k i i
+6	[きい]	k i:
+6	[きか]	k i k a
+6	[きく]	k i k u
+6	[きっ]	k i q
+6	[きら]	k i r a
+6	[きら]	k i r a
+6	[きら]	k i r a
+6	[きる]	k i r u
+6	[きる]	k i r u
+6	[きれ]	k i r e
+6	[く]	k u
+6	[くぐっ]	k u g u q
+6	[ください]	k u d a s a i
+6	[くだり]	k u d a r i
+6	[くっ]	k u q
+6	[くっつい]	k u q ts u i
+6	[くる]	k u r u
+6	[くれ]	k u r e
+6	[くれる]	k u r e r u
+6	[くれれ]	k u r e r e
+6	[くろ]	k u r o
+6	[こ]	k o
+6	[こ]	k o
+6	[こ]	k o
+6	[こする]	k o s u r u
+6	[こっ]	k o q
+6	[こね]	k o n e
+6	[こめ]	k o m e
+6	[こり]	k o r i
+6	[これ]	k o r e
+6	[これ]	k u r e
+6	[こん]	k o N
+6	[さ]	s a
+6	[さえ]	s a e
+6	[さがし]	s a g a sh i
+6	[さがす]	s a g a s u
+6	[さし]	s a sh i
+6	[さめ]	s a m e
+6	[し]	sh i
+6	[しか]	sh i k a
+6	[しっ]	sh i q
+6	[しばっ]	sh i b a q
+6	[しぼっ]	sh i b o q
+6	[しまい]	sh i m a i
+6	[しゃべれ]	sh a b e r e
+6	[しよ]	sh i y o
+6	[しら]	sh i r a
+6	[しれ]	sh i r e
+6	[しろ]	sh i r o
+6	[す]	s u
+6	[すき]	s u k i
+6	[すき]	s u k i
+6	[すぎ]	s u g i
+6	[すて]	s u t e
+6	[すて]	s u t e
+6	[すて]	s u t e
+6	[する]	s u r u
+6	[すれ]	s u r e
+6	[すれ]	s u r e
+6	[せまっ]	s e m a q
+6	[そこね]	s o k o n e
+6	[そら]	s o r a
+6	[それ]	s o r e
+6	[たい]	t a i
+6	[たい]	t a i
+6	[たい]	t a i
+6	[たかっ]	t a k a q
+6	[たく]	t a k u
+6	[たけ]	t a k e
+6	[たち]	t a ch i
+6	[たっ]	t a q
+6	[たて]	t a t e
+6	[たのん]	t a n o N
+6	[たべ]	t a b e
+6	[たべ]	t a b e
+6	[たべ]	t a b e
+6	[たまっ]	t a m a q
+6	[ため]	t a m e
+6	[たら]	t a r a
+6	[たり]	t a r i
+6	[だい]	d a i
+6	[だい]	d a i
+6	[だい]	d a i
+6	[だい]	d a i
+6	[だし]	d a sh i
+6	[だし]	d a sh i
+6	[だす]	d a s u
+6	[だせ]	d a s e
+6	[だまさ]	d a m a s a
+6	[ちがい]	ch i g a i
+6	[ちがう]	ch i g a u
+6	[ちぎっ]	ch i g i q
+6	[ちび]	ch i b i
+6	[ちゃう]	ch a u
+6	[つい]	ts u i
+6	[つい]	ts u i
+6	[つい]	ts u i
+6	[つか]	ts u k a
+6	[つかっ]	ts u k a q
+6	[つかれ]	ts u k a r e
+6	[つかれ]	ts u k a r e
+6	[つき]	ts u k i
+6	[つぎ]	ts u g i
+6	[つく]	ts u k u
+6	[つくっ]	ts u k u q
+6	[つくり]	ts u k u r i
+6	[つっ]	ts u q
+6	[つづい]	ts u z u i
+6	[つづく]	ts u z u k u
+6	[つれ]	ts u r e
+6	[で]	d e
+6	[でき]	d e k i
+6	[できる]	d e k i r u
+6	[でる]	d e r u
+6	[とい]	t o i
+6	[とおる]	t o: r u
+6	[とかし]	t o k a sh i
+6	[とっ]	t o q
+6	[とっ]	t o q
+6	[とまり]	t o m a r i
+6	[とめ]	t o m e
+6	[とめ]	t o m e
+6	[とら]	t o r a
+6	[とり]	t o r i
+6	[とり]	t o r i
+6	[とる]	t o r u
+6	[とれ]	t o r e
+6	[とれ]	t o r e
+6	[とれ]	t o r e
+6	[な]	n a
+6	[ない]	n a i
+6	[なさい]	n a s a i
+6	[なっ]	n a q
+6	[なで]	n a d e
+6	[なら]	n a r a
+6	[なる]	n a r u
+6	[なれ]	n a r e
+6	[なん]	n a N
+6	[に]	n i
+6	[におい]	n i o i
+6	[ぬい]	n u i
+6	[ぬけ]	n u k e
+6	[ね]	n e
+6	[ね]	n e
+6	[のこし]	n o k o sh i
+6	[のこっ]	n o k o q
+6	[のこり]	n o k o r i
+6	[のり]	n o r i
+6	[のる]	n o r u
+6	[のん]	n o N
+6	[はい]	h a i
+6	[はい]	h a i
+6	[はいっ]	h a i q
+6	[はいら]	h a i r a
+6	[はか]	h a k a
+6	[はしっ]	h a sh i q
+6	[はっ]	h a q
+6	[はなし]	h a n a sh i
+6	[はなし]	h a n a sh i
+6	[はね]	h a n e
+6	[ひき]	h i k i
+6	[ひらけ]	h i r a k e
+6	[ひろげ]	h i r o g e
+6	[ふ]	f u
+6	[ふ]	f u
+6	[ふ]	f u
+6	[ふい]	f u i
+6	[ふく]	f u k u
+6	[ふるい]	f u r u i
+6	[ふん]	f u N
+6	[へ]	h e
+6	[ほこり]	h o k o r i
+6	[まい]	m a i
+6	[まい]	m a i
+6	[まがっ]	m a g a q
+6	[まし]	m a sh i
+6	[ませ]	m a s e
+6	[また]	m a t a
+6	[まち]	m a ch i
+6	[まち]	m a ch i
+6	[まちがっ]	m a ch i g a q
+6	[まっ]	m a q
+6	[まもっ]	m a m o q
+6	[まわっ]	m a w a q
+6	[まわれ]	m a w a r e
+6	[みえ]	m i e
+6	[みかけ]	m i k a k e
+6	[みせ]	m i s e
+6	[みせ]	m i s e
+6	[みち]	m i ch i
+6	[みよ]	m i y o
+6	[みる]	m i r u
+6	[みれ]	m i r e
+6	[みれ]	m i r e
+6	[むすぶ]	m u s u b u
+6	[もち]	m o ch i
+6	[もっ]	m o q
+6	[もどっ]	m o d o q
+6	[もらっ]	m o r a q
+6	[もらわ]	m o r a w a
+6	[もれ]	m o r e
+6	[もん]	m o N
+6	[や]	y a
+6	[や]	y a
+6	[や]	y a q
+6	[や]	y a q
+6	[やけ]	y a k e
+6	[やっ]	y a q
+6	[やぶっ]	y a b u q
+6	[やま]	y a m a
+6	[やり]	y a r i
+6	[やる]	y a r u
+6	[やれ]	y a r e
+6	[やん]	y a N
+6	[ゆで]	y u d e
+6	[よし]	y o sh i
+6	[よっ]	y o q
+6	[より]	y o r i
+6	[よる]	y o r u
+6	[よろこん]	y o r o k o N
+6	[わか]	w a k a
+6	[わかっ]	w a k a q
+6	[わから]	w a k a r a
+6	[わかる]	w a k a r u
+6	[わかん]	w a k a N
+6	[わけ]	w a k e
+6	[わたし]	w a t a sh i
+6	[わたっ]	w a t a q
+6	[わらい]	w a r a i
+7	[あい]	a i
+7	[あい]	a i
+7	[あい]	a i
+7	[あき]	a k i
+7	[あきらめ]	a k i r a m e
+7	[あさ]	a s a
+7	[あした]	a sh i t a
+7	[あそび]	a s o b i
+7	[あたま]	a t a m a
+7	[あっ]	a q
+7	[あっ]	a q
+7	[あと]	a t o
+7	[あめ]	a m e
+7	[あら]	a r a
+7	[あり]	a r i
+7	[あん]	a N
+7	[いか]	i k a
+7	[いかり]	i k a r i
+7	[いかん]	i k a N
+7	[いがい]	i g a i
+7	[いき]	i k i
+7	[いきおい]	i k i o i
+7	[いく]	i k u
+7	[いく]	i k u
+7	[いくら]	i k u r a
+7	[いじょう]	i j o:
+7	[いち]	i ch i
+7	[いちおう]	i ch i o:
+7	[いっ]	i q
+7	[いっ]	i q
+7	[いっしょ]	i q sh o
+7	[いっぱい]	i q p a i
+7	[いな]	i n a
+7	[いぬ]	i n u
+7	[いみ]	i m i
+7	[いろ]	i r o
+7	[うえ]	u e
+7	[うそ]	u s o
+7	[うち]	u ch i
+7	[うま]	u m a
+7	[え]	e
+7	[え]	e
+7	[えき]	e k i
+7	[えん]	e N
+7	[おい]	o i
+7	[おおく]	o: k u
+7	[おしゃれ]	o sh a r e
+7	[おす]	o s u
+7	[おっ]	o q
+7	[おとこ]	o t o k o
+7	[おとな]	o t o n a
+7	[おなか]	o n a k a
+7	[おもい]	o m o i
+7	[おもかげ]	o m o k a g e
+7	[おもちゃ]	o m o ch a
+7	[おやじ]	o y a j i
+7	[おり]	o r i
+7	[おり]	o r i
+7	[おんな]	o N n a
+7	[かい]	k a i
+7	[かい]	k a i
+7	[かい]	k a i
+7	[かえる]	k a e r u
+7	[かお]	k a o
+7	[かぎ]	k a g i
+7	[かけ]	k a k e
+7	[かさ]	k a s a
+7	[かっこう]	k a q k o:
+7	[かって]	k a q t e
+7	[かって]	k a q t e
+7	[かな]	k a n a
+7	[かね]	k a n e
+7	[かま]	k a m a
+7	[かも]	k a m o
+7	[かん]	k a N
+7	[かんじ]	k a N j i
+7	[かんじ]	k a N j i
+7	[がら]	g a r a
+7	[がわ]	g a w a
+7	[き]	k i
+7	[き]	k i
+7	[き]	k i
+7	[きかい]	k i k a i
+7	[きかい]	k i k a i
+7	[きく]	k i k u
+7	[きち]	k i ch i
+7	[きのう]	k i n o:
+7	[きもち]	k i m o ch i
+7	[きゅう]	ky u:
+7	[きょう]	ky o:
+7	[きらい]	k i r a i
+7	[きれ]	k i r e
+7	[く]	k u
+7	[くい]	k u i
+7	[くだり]	k u d a r i
+7	[くち]	k u ch i
+7	[くつ]	k u ts u
+7	[くろ]	k u r o
+7	[け]	k e
+7	[け]	k e
+7	[けしき]	k e sh i k i
+7	[けっきょく]	k e q ky o k u
+7	[けん]	k e N
+7	[けん]	k e N
+7	[げん]	g e N
+7	[こ]	k o
+7	[こ]	k o
+7	[こ]	k o
+7	[こっ]	k o q
+7	[こと]	k o t o
+7	[こり]	k o r i
+7	[こんど]	k o N d o
+7	[こんばん]	k o N b a N
+7	[ご]	g o
+7	[ご]	g o
+7	[さいご]	s a i g o
+7	[さいしょ]	s a i sh o
+7	[さがし]	s a g a sh i
+7	[さっき]	s a q k i
+7	[さめ]	s a m e
+7	[さん]	s a N
+7	[さんぽ]	s a N p o
+7	[した]	sh i t a
+7	[しっぽ]	sh i q p o
+7	[しま]	sh i m a
+7	[しま]	sh i m a
+7	[しまい]	sh i m a i
+7	[しまり]	sh i m a r i
+7	[しょ]	sh o
+7	[しょうが]	sh o: g a
+7	[しら]	sh i r a
+7	[しろ]	sh i r o
+7	[じ]	j i
+7	[じかん]	j i k a N
+7	[じしん]	j i sh i N
+7	[じたい]	j i t a i
+7	[じぶん]	j i b u N
+7	[じゅう]	j u:
+7	[す]	s u
+7	[すき]	s u k i
+7	[すき]	s u k i
+7	[ず]	z u
+7	[ぜいたく]	z e: t a k u
+7	[ぜったい]	z e q t a i
+7	[ぜんたい]	z e N t a i
+7	[ぜんぶ]	z e N b u
+7	[そう]	s o:
+7	[そうじ]	s o: j i
+7	[そうそう]	s o: s o:
+7	[そと]	s o t o
+7	[そら]	s o r a
+7	[ぞう]	z o:
+7	[たい]	t a i
+7	[たい]	t a i
+7	[たい]	t a i
+7	[たいがい]	t a i g a i
+7	[たか]	t a k a
+7	[たき]	t a k i
+7	[たく]	t a k u
+7	[たけ]	t a k e
+7	[ただ]	t a d a
+7	[たち]	t a ch i
+7	[たっ]	t a q
+7	[たて]	t a t e
+7	[たび]	t a b i
+7	[ため]	t a m e
+7	[たん]	t a N
+7	[たん]	t a N
+7	[だい]	d a i
+7	[だい]	d a i
+7	[だい]	d a i
+7	[だい]	d a i
+7	[だし]	d a sh i
+7	[だし]	d a sh i
+7	[だめ]	d a m e
+7	[だら]	d a r a
+7	[だん]	d a N
+7	[だんな]	d a N n a
+7	[ち]	ch i
+7	[ちい]	ch i:
+7	[ちがい]	ch i g a i
+7	[ちび]	ch i b i
+7	[ちゃ]	ch a
+7	[つか]	ts u k a
+7	[つかれ]	ts u k a r e
+7	[つかれ]	ts u k a r e
+7	[つき]	ts u k i
+7	[つぎ]	ts u g i
+7	[つくり]	ts u k u r i
+7	[つぶ]	ts u b u
+7	[てん]	t e N
+7	[とい]	t o i
+7	[とう]	t o:
+7	[とう]	t o:
+7	[とうり]	t o: r i
+7	[とおく]	t o: k u
+7	[とき]	t o k i
+7	[とき]	t o k i
+7	[とこ]	t o k o
+7	[とこ]	t o k o
+7	[ところ]	t o k o r o
+7	[とちゅう]	t o ch u:
+7	[とみ]	t o m i
+7	[とめ]	t o m e
+7	[とめ]	t o m e
+7	[とも]	t o m o
+7	[ともだち]	t o m o d a ch i
+7	[とら]	t o r a
+7	[とり]	t o r i
+7	[とり]	t o r i
+7	[とろ]	t o r o
+7	[ど]	d o
+7	[なか]	n a k a
+7	[なん]	n a N
+7	[におい]	n i o i
+7	[にち]	n i ch i
+7	[にっぽん]	n i q p o N
+7	[ね]	n e
+7	[ね]	n e
+7	[ねえ]	n e:
+7	[ねこ]	n e k o
+7	[のこり]	n o k o r i
+7	[のり]	n o r i
+7	[のん]	n o N
+7	[は]	h a
+7	[はか]	h a k a
+7	[はし]	h a sh i
+7	[はず]	h a z u
+7	[はっ]	h a q
+7	[はな]	h a n a
+7	[はなし]	h a n a sh i
+7	[はなし]	h a n a sh i
+7	[はね]	h a n e
+7	[はやく]	h a y a k u
+7	[はやく]	h a y a k u
+7	[ばね]	b a n e
+7	[ばん]	b a N
+7	[ぱん]	p a N
+7	[ひえ]	h i e
+7	[ひき]	h i k i
+7	[び]	b i
+7	[びっくり]	b i q k u r i
+7	[ふ]	f u
+7	[ふ]	f u
+7	[ふ]	f u
+7	[ふい]	f u i
+7	[ふう]	f u:
+7	[ふく]	f u k u
+7	[ふくろ]	f u k u r o
+7	[ふた]	f u t a
+7	[ふだん]	f u d a N
+7	[ふつう]	f u ts u:
+7	[ふつう]	f u ts u:
+7	[ふゆ]	f u y u
+7	[ふるい]	f u r u i
+7	[ふろ]	f u r o
+7	[ふろ]	f u r o
+7	[ふん]	f u N
+7	[へや]	h e y a
+7	[へん]	h e N
+7	[へん]	h e N
+7	[へん]	h e N
+7	[べんとう]	b e N t o:
+7	[ほ]	h o
+7	[ほう]	h o:
+7	[ほか]	h o k a
+7	[ほこり]	h o k o r i
+7	[ほとんど]	h o t o N d o
+7	[ほんと]	h o N t o
+7	[ほんとう]	h o N t o:
+7	[ま]	m a
+7	[まあ]	m a:
+7	[まい]	m a i
+7	[まい]	m a i
+7	[まえ]	m a e
+7	[ます]	m a s u
+7	[まち]	m a ch i
+7	[まち]	m a ch i
+7	[まる]	m a r u
+7	[まんなか]	m a N n a k a
+7	[みえ]	m i e
+7	[みず]	m i z u
+7	[みち]	m i ch i
+7	[みつ]	m i ts u
+7	[みつ]	m i ts u
+7	[みんな]	m i N n a
+7	[むかし]	m u k a sh i
+7	[むかし]	m u k a sh i
+7	[むこう]	m u k o:
+7	[め]	m e
+7	[もち]	m o ch i
+7	[もと]	m o t o
+7	[もの]	m o n o
+7	[もの]	m o n o
+7	[もれ]	m o r e
+7	[もん]	m o N
+7	[や]	y a
+7	[や]	y a
+7	[やけ]	y a k e
+7	[やっ]	y a q
+7	[やつ]	y a ts u
+7	[やま]	y a m a
+7	[やり]	y a r i
+7	[ゆび]	y u b i
+7	[ゆめ]	y u m e
+7	[よう]	y o:
+7	[よこ]	y o k o
+7	[よし]	y o sh i
+7	[よっ]	y o q
+7	[より]	y o r i
+7	[よる]	y o r u
+7	[らい]	r a i
+7	[らい]	r a i
+7	[らん]	r a N
+7	[りょう]	ry o:
+7	[りょうり]	ry o: r i
+7	[わ]	w a
+7	[わけ]	w a k e
+7	[わり]	w a r i
+7	[わん]	w a N
+7	[ＢＢ]	b i: b i:
+7	[ＯＫ]	o: k e:
+7	[ＵＳ]	y u: e s u
+8	[あたたかい]	a t a t a k a i
+8	[あたらしい]	a t a r a sh i:
+8	[あったかい]	a q t a k a i
+8	[あったかく]	a q t a k a k u
+8	[いい]	i:
+8	[いい]	i:
+8	[いたい]	i t a i
+8	[いっ]	i q
+8	[いっ]	i q
+8	[うすく]	u s u k u
+8	[うま]	u m a
+8	[うまい]	u m a i
+8	[うまかっ]	u m a k a q
+8	[うまく]	u m a k u
+8	[うらやましい]	u r a y a m a sh i:
+8	[うるさく]	u r u s a k u
+8	[えらい]	e r a i
+8	[おいし]	o i sh i
+8	[おいしい]	o i sh i:
+8	[おいしく]	o i sh i k u
+8	[おおきい]	o: k i:
+8	[おおく]	o: k u
+8	[おかしい]	o k a sh i:
+8	[おそい]	o s o i
+8	[おそく]	o s o k u
+8	[おもい]	o m o i
+8	[おもしろかっ]	o m o sh i r o k a q
+8	[かたく]	k a t a k u
+8	[かわいい]	k a w a i:
+8	[かわいかっ]	k a w a i k a q
+8	[かわいく]	k a w a i k u
+8	[きたない]	k i t a n a i
+8	[きたない]	k i t a n a i
+8	[くらく]	k u r a k u
+8	[くるしい]	k u r u sh i:
+8	[さむ]	s a m u
+8	[すくない]	s u k u n a i
+8	[すご]	s u g o
+8	[すごい]	s u g o i
+8	[すごく]	s u g o k u
+8	[すっごい]	s u q g o i
+8	[たかい]	t a k a i
+8	[たのしい]	t a n o sh i:
+8	[ちかい]	ch i k a i
+8	[ちかく]	ch i k a k u
+8	[つめたい]	ts u m e t a i
+8	[つめたく]	ts u m e t a k u
+8	[な]	n a
+8	[ない]	n a i
+8	[なかっ]	n a k a q
+8	[なきゃ]	n a ky a
+8	[なく]	n a k u
+8	[なくっ]	n a k u q
+8	[ね]	n e
+8	[ね]	n e
+8	[ねえ]	n e:
+8	[ねー]	n e:
+8	[はずかしい]	h a z u k a sh i:
+8	[はやく]	h a y a k u
+8	[はやく]	h a y a k u
+8	[ひどい]	h i d o i
+8	[ひろく]	h i r o k u
+8	[ふるい]	f u r u i
+8	[ほしい]	h o sh i:
+8	[ほしい]	h o sh i:
+8	[まず]	m a z u
+8	[まずい]	m a z u i
+8	[まずかっ]	m a z u k a q
+8	[まずく]	m a z u k u
+8	[まるく]	m a r u k u
+8	[ものすごい]	m o n o s u g o i
+8	[やさし]	y a s a sh i
+8	[やわらかく]	y a w a r a k a k u
+8	[よ]	y o
+8	[よう]	y o:
+8	[よかっ]	y o k a q
+8	[よく]	y o k u
+8	[よし]	y o sh i
+8	[わか]	w a k a
+8	[わるい]	w a r i:
+8	[わるい]	w a r u i
+8	[わるく]	w a r u k u
+9	[いや]	i y a
+9	[いや]	i y a
+9	[いろいろ]	i r o i r o
+9	[おなじ]	o n a j i
+9	[おんなじ]	o N n a j i
+9	[きれい]	k i r e:
+9	[けっこう]	k e q k o:
+9	[こんな]	k o N n a
+9	[しずか]	sh i z u k a
+9	[じゅうぶん]	j u: b u N
+9	[すき]	s u k i
+9	[すき]	s u k i
+9	[すてき]	s u t e k i
+9	[そ]	s o
+9	[そう]	s o:
+9	[そんな]	s o N n a
+9	[たくさん]	t a k u s a N
+9	[だいじょうぶ]	d a i j o: b u
+9	[にこやか]	n i k o y a k a
+9	[ふらふら]	f u r a f u r a
+9	[まし]	m a sh i
+9	[みたい]	m i t a i
+9	[や]	y a
+9	[や]	y a
+9	[よう]	y o:
+9	[りっぱ]	r i q p a
+10	[あ]	a
+10	[ああ]	a:
+10	[あい]	a i
+10	[あい]	a i
+10	[あい]	a i
+10	[あう]	a u
+10	[あっ]	a q
+10	[あっ]	a q
+10	[あの]	a n o
+10	[あのー]	a n o:
+10	[あら]	a r a
+10	[あらっ]	a r a q
+10	[あれ]	a r e
+10	[あー]	a:
+10	[い]	i
+10	[い]	i
+10	[いえ]	i e
+10	[いえ]	i e
+10	[いざ]	i z a
+10	[いや]	i y a
+10	[いや]	i y a
+10	[う]	u
+10	[うっ]	u q
+10	[うっ]	u q
+10	[うん]	u N
+10	[うーん]	u: N
+10	[え]	e
+10	[え]	e
+10	[えっ]	e q
+10	[えー]	e:
+10	[えーと]	e: t o
+10	[お]	o
+10	[お]	o
+10	[お]	o
+10	[お]	o
+10	[お]	o
+10	[お]	o
+10	[おい]	o i
+10	[おう]	o:
+10	[おす]	o s u
+10	[おっ]	o q
+10	[くっ]	k u q
+10	[け]	k e
+10	[け]	k e
+10	[さ]	s a
+10	[さあ]	s a:
+10	[しっ]	sh i q
+10	[そうそう]	s o: s o:
+10	[その]	s o n o
+10	[そら]	s o r a
+10	[と]	t o
+10	[どれ]	d o r e
+10	[な]	n a
+10	[なあ]	n a:
+10	[なっ]	n a q
+10	[なー]	n a:
+10	[ね]	n e
+10	[ね]	n e
+10	[ねえ]	n e:
+10	[ねっ]	n e q
+10	[は]	h a
+10	[はい]	h a i
+10	[はい]	h a i
+10	[はっ]	h a q
+10	[はー]	h a:
+10	[ふう]	f u:
+10	[ふん]	f u N
+10	[ふーん]	f u: N
+10	[へ]	h e
+10	[へー]	h e:
+10	[ほ]	h o
+10	[ほら]	h o r a
+10	[ま]	m a
+10	[や]	y a
+10	[や]	y a
+10	[やあ]	y a:
+10	[やっ]	y a q
+10	[やれ]	y a r e
+10	[よし]	y o sh i
+10	[よしっ]	y o sh i q
+10	[わ]	w a
+10	[わあ]	w a:
+10	[ん]	N N N
+10	[ん]	N N N
+11	[あい]	a i
+11	[あい]	a i
+11	[あい]	a i
+11	[え]	e
+11	[え]	e
+11	[えん]	e N
+11	[おき]	o k i
+11	[かね]	k a n e
+11	[かん]	k a N
+11	[がい]	g a i
+11	[がら]	g a r a
+11	[き]	k i
+11	[き]	k i
+11	[き]	k i
+11	[けん]	k e N
+11	[けん]	k e N
+11	[こ]	k o
+11	[こ]	k o
+11	[こ]	k o
+11	[ご]	g o
+11	[ご]	g o
+11	[さ]	s a
+11	[さん]	s a N
+11	[し]	sh i
+11	[しょ]	sh o
+11	[じ]	j i
+11	[じゅう]	j u:
+11	[すぎ]	s u g i
+11	[たい]	t a i
+11	[たい]	t a i
+11	[たい]	t a i
+11	[たち]	t a ch i
+11	[たて]	t a t e
+11	[たん]	t a N
+11	[たん]	t a N
+11	[だん]	d a N
+11	[ちゃ]	ch a
+11	[ちゃん]	ch a N
+11	[ちゃーん]	ch a: N
+11	[ちょん]	ch o N
+11	[っけ]	k e
+11	[っぽい]	p o i
+11	[つ]	ts u
+11	[つき]	ts u k i
+11	[てき]	t e k i
+11	[てん]	t e N
+11	[とう]	t o:
+11	[とう]	t o:
+11	[とも]	t o m o
+11	[とり]	t o r i
+11	[とり]	t o r i
+11	[ながら]	n a g a r a
+11	[にん]	n i N
+11	[ばん]	b a N
+11	[ひき]	h i k i
+11	[ふ]	f u
+11	[ふ]	f u
+11	[ふ]	f u
+11	[ふう]	f u:
+11	[ぽ]	p o
+11	[まい]	m a i
+11	[まい]	m a i
+11	[め]	m e
+11	[もち]	m o ch i
+11	[や]	y a
+11	[や]	y a
+11	[やすい]	y a s u i
+11	[やすい]	y a s u i
+11	[やすく]	y a s u k u
+11	[やん]	y a N
+11	[よう]	y o:
+11	[より]	y o r i
+11	[ら]	r a
+11	[わ]	w a
+12	[から]	k a r a
+12	[が]	g a
+12	[けど]	k e d o
+12	[しかも]	sh i k a m o
+12	[じゃ]	j a
+12	[じゃあ]	j a:
+12	[そして]	s o sh i t e
+12	[ただ]	t a d a
+12	[て]	t e
+12	[て]	t e
+12	[で]	d e
+12	[また]	m a t a
+12	[んで]	N d e
+13	[あい]	a i
+13	[あい]	a i
+13	[あい]	a i
+13	[お]	o
+13	[お]	o
+13	[お]	o
+13	[お]	o
+13	[お]	o
+13	[お]	o
+13	[おっ]	o q
+13	[かん]	k a N
+13	[こ]	k o
+13	[こ]	k o
+13	[こ]	k o
+13	[ご]	g o
+13	[ご]	g o
+13	[さ]	s a
+13	[す]	s u
+13	[だい]	d a i
+13	[だい]	d a i
+13	[だい]	d a i
+13	[だい]	d a i
+13	[ど]	d o
+13	[ふ]	f u
+13	[ふ]	f u
+13	[ふ]	f u
+13	[ぶ]	b u
+13	[まっ]	m a q
+13	[まる]	m a r u
+14	[あ]	a
+14	[い]	i
+14	[い]	i
+14	[う]	u
+14	[え]	e
+14	[え]	e
+14	[お]	o
+14	[お]	o
+14	[お]	o
+14	[お]	o
+14	[お]	o
+14	[お]	o
+14	[く]	k u
+14	[け]	k e
+14	[け]	k e
+14	[っ]	ts u
+14	[び]	b i
+14	[ぶ]	b u
+14	[ま]	m a
+14	[Ａ]	e:
+14	[Ｂ]	b i:
+14	[Ｃ]	sh i:
+14	[Ｄ]	d i:
+14	[Ｈ]	e i ch i
+14	[Ｔ]	t i:
+14	[Ｘ]	e q k u s u
+14	[Ｙ]	w a i
+15	[あの]	a n o
+15	[ある]	a r u
+15	[あん]	a N
+15	[いろんな]	i r o N n a
+15	[おなじ]	o n a j i
+15	[おんなじ]	o N n a j i
+15	[かかる]	k a k a r u
+15	[この]	k o n o
+15	[こん]	k o N
+15	[こんな]	k o N n a
+15	[その]	s o n o
+15	[そん]	s o N
+15	[そんな]	s o N n a
+15	[ろくな]	r o k u n a
