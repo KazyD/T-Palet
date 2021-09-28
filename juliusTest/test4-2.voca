@@ -1,4 +1,8 @@
-% 代名詞
+% NS_B
+<s>		silB
+% NS_E
+</s>		silE
+% PRN
 あそこ	a s o k o
 あたし	a t a sh i
 あなた	a n a t a
@@ -8,11 +12,13 @@
 おれ	o r e
 か	k a
 かのじょ	k a n o j o
+かれ		k a r e
 かん	k a N
 ここ	k o k o
 こっ	k o q
 こっち	k o q ch i
 これ	k o r e
+こん	k o N
 そ	s o
 そい	s o i
 そこ	s o k o
@@ -31,141 +37,28 @@
 ほん	h o N
 ぼく	b o k u
 わたし	w a t a sh i
-% 副詞
-ああ	a:
-あたふた	a t a f u t a
-あんま	a N m a
-いきおい	i k i o i
-いくら	i k u r a
-いちばん	i ch i b a N
-いったん	i q t a N
-いっぱい	i q p a i
-いよいよ	i y o i y o
-いろいろ	i r o i r o
-うんと	u N t o
-え	e
-え	e
-か	k a
-かう	k o:
-かえって	k a e q t e
-かっ	k a q
-かっ	k a q
-かって	k a q t e
-かって	k a q t e
-かならず	k a n a r a z u
-かん	k a N
-が	g a
-がら	g a r a
-きっ	k i q
-きっと	k i q t o
-きら	k i r a
-きら	k i r a
-きら	k i r a
-くっ	k u q
-くるくる	k u r u k u r u
-けっこう	k e q k o:
-こう	k o:
-ごそごそ	g o s o g o s o
-さ	s a
-さあ	s a:
-さすが	s a s u g a
-しっかり	sh i q k a r i
-しぶしぶ	sh i b u sh i b u
-じゅうぶん	j u: b u N
-すぐ	s u g u
-すでに	s u d e n i
-ずいぶん	z u i b u N
-ずっと	z u q t o
-ぜんぜん	z e N z e N
-そ	s o
-そう	s o:
-たくさん	t a k u s a N
-ただ	t a d a
-たっぷり	t a q p u r i
-たぶん	t a b u N
-たん	t a N
-たん	t a N
-だいぶ	d a i b u
-だっ	d a q
-だん	d a N
-だんだん	d a N d a N
-だー	d a:
-ち	ch i
-ちゃんと	ch a N t o
-ちょうど	ch o: d o
-ちょっと	ch o q t o
-ちょん	ch o N
-つい	ts u i
-つい	ts u i
-つい	ts u i
-でん	d e N
-と	t o
-とにかく	t o n i k a k u
-とりあえず	t o r i a e z u
-ど	d o
-どう	d o:
-どきどき	d o k i d o k i
-どー	d o:
-ば	b a
-ば	b a
-ばっ	b a q
-ばん	b a N
-ぱさぱさ	p a s a p a s a
-ぱっ	p a q
-び	b i
-びしっ	b i sh i q
-ぴんぽーん	p i N p o: N
-ぴー	p i:
-ふい	f u i
-ふらふら	f u r a f u r a
-ぷりぷり	p u r i p u r i
-ぷんぷん	p u N p u N
-ほ	h o
-ほう	h o:
-ま	m a
-まあ	m a:
-まず	m a z u
-また	m a t a
-まだ	m a d a
-もう	m o:
-もし	m o sh i
-もちろん	m o ch i r o N
-もともと	m o t o m o t o
-やっぱ	y a q p a
-やっぱり	y a q p a r i
-よう	y o:
-よく	y o k u
-より	y o r i
-らん	r a N
-わざわざ	w a z a w a z a
-わん	w a N
-% 助動詞
-き	k i
-き	k i
-き	k i
+% AUX
 き	k i
 さし	s a sh i
 し	sh i
 しか	sh i k a
 じ	j i
 じゃ	j a
-じゃ	j a
 じゃあ	j a:
 す	s u
-す	s u
-す	z u
-す	z u
 ず	z u
-せ	s e
+そうだ				s o u d a
+そうだ				s o: d a
+そうです			s o u d e s u
+そうです 			s o: d e s u
 た	t a
-たい	t a i
-たい	t a i
 たい	t a i
 たかっ	t a k a q
 たき	t a k i
 たく	t a k u
 たら	t a r a
 たり	t a r i
+たろ		t a r o
 だ	d a
 だっ	d a q
 だら	d a r a
@@ -179,15 +72,13 @@
 って	t e
 つ	ts u
 つい	ts u i
-つい	ts u i
-つい	ts u i
 つっ	ts u q
-て	t e
 て	t e
 てき	t e k i
 てる	t e r u
 てん	t e N
 で	d e
+でし		d e sh i
 でしょ	d e sh o
 です	d e s u
 でる	d e r u
@@ -195,18 +86,12 @@
 と	t o
 とい	t o i
 とう	t o:
-とう	t o:
 とか	t o k a
 とき	t o k i
-とき	t o k i
-とっ	t o q
 とっ	t o q
 とら	t o r a
 とり	t o r i
-とり	t o r i
 とる	t o r u
-とれ	t o r e
-とれ	t o r e
 とれ	t o r e
 どる	d o r u
 な	n a
@@ -226,21 +111,23 @@
 ねー	n e:
 はっ	h a q
 へん	h e N
-へん	h e N
-へん	h e N
 ま	m a
 まい	m a i
 まい	m a i
 まし	m a sh i
+ましょ		m a sh o
 ます	m a s u
+ますれ		m a s u r e
 ませ	m a s e
 まっ	m a q
-まっ	m a q
-め	m e
 め	m e
 や	y a
 や	y a
 やっ	y a q
+ようだ				y o u d a
+ようだ				y o: d a
+ようです			y o u d e s u
+ようです			y o: d e s u
 よっ	y o q
 よる	y o r u
 ら	r a
@@ -249,108 +136,64 @@
 れ	r e
 れ	r e
 れる	r e r u
-ん	N N N
-ん	N N N
-ん	N N N
-ん	N N N
-% 助詞
-い	i
-い	i
-い	i
-え	e
-え	e
-か	g a
-か	k a
-かな	k a n a
-から	k a r a
-が	g a
-がー	g a:
-くらい	k u r a i
-くらい	k u r a i
-ぐらい	g u r a i
-け	k e
-け	k e
-け	k e
-けど	k e d o
-けん	k e N
-けん	k e N
-こそ	k o s o
-さ	s a
-さあ	s a:
-さえ	s a e
-し	sh i
-しか	sh i k a
-じゃ	j a
-じゃ	j a
-じゃあ	j a:
-じゃん	j a N
-ずつ	z u ts u
-せ	s e
-ぜ	z e
-ぞう	z o:
-たって	t a q t e
-たら	t a r a
-たり	t a r i
-だけ	d a k e
-だって	d a q t e
-ちゃ	ch a
-っきゃ	ky a
-っけ	k e
-って	t e
-っと	t o
-つ	ts u
-つつ	ts u ts u
-て	t e
-て	t e
-で	d e
-と	t o
-とも	t o m o
-ど	d o
-な	n a
-なあ	n a:
-ながら	n a g a r a
-なん	n a N
-なんか	n a N k a
-なんて	n a N t e
-なんと	n a N t o
-なー	n a:
-に	n i
-ね	n e
-ね	n e
-ねえ	n e:
-ねん	n e N
-ねー	n e:
-の	n o
-のん	n o N
-は	b a
-は	w a
-ば	b a
-ば	b a
-へ	e
-まで	m a d e
-も	m o
-も	m o
-もの	m o n o
-もの	m o n o
-もん	m o N
-や	y a
-や	y a
-よ	y o
-よう	y o:
-より	y o r i
-わ	w a
-わあ	w a:
-を	o
-ん	N N N
-ん	N N N
-ん	N N N
-ん	N N N
-% 動詞
+られる				r a r e r u
+ん	N
+% P
+を     o
+や		y a
+の		 n o
+で     d e
+と     t o
+に     n i
+が     g a
+へ     e
+から    k a r a
+まで    m a d e
+より    y o r i
+# 接続助詞
+ば     b a
+#と     t o
+て     t e
+ので    n o d e
+から    k a r a
+ても    t e m o
+たら    t a r a
+なら    n a r a
+ところで    t o k o r o d e
+#が     g a
+けれど   k e r e d o
+けれども    k e r e d o m o
+のに    n o n i
+ながら   n a g a r a
+つつ    ts u ts u
+ものの   m o n o n o
+し     sh i
+たり    t a r i
+# 副助詞
+は     w a
+も     m o
+だけ    d a k e
+ばかり   b a k a r i
+こそ    k o s o
+しか    sh i k a
+など    n a d o
+でも    d e m o
+まで    m a d e
+さえ    s a e
+くらい   k u r a i
+ぐらい   g u r a i
+ほど    h o d o
+# 終助詞
+か     k a
+かしら   k a sh i r a
+な     n a
+よ     y o
+ね     n e
+な     n a
+% V
 あ	a
 あ	a N
 あ	a q
-あい	a i
-あい	a i
 あい	a i
 あう	a u
 あき	a k i
@@ -368,21 +211,13 @@
 あれ	a r e
 あん	a N
 い	i
-い	i
-い	i
-いい	i:
 いい	i:
 いう	i u
-いう	i u
 いう	y u:
-いう	y u:
-いえ	i e
 いえ	i e
 いか	i k a
 いき	i k i
 いく	i k u
-いく	i k u
-いけ	i k e
 いけ	i k e
 いこ	i k o
 いただけ	i t a d a k e
@@ -398,8 +233,6 @@
 う	u
 うえ	u e
 うごか	u g o k a
-うごか	u g o k a
-うっ	u q
 うっ	u q
 うつっ	u ts u q
 え	e
@@ -411,7 +244,6 @@
 おき	o k i
 おこっ	o k o q
 おさ	o s a
-おし	o sh i
 おし	o sh i
 おす	o s u
 おっ	o q
@@ -447,7 +279,6 @@
 き	k i
 き	k i
 き	k i
-き	k i
 きい	k i i
 きい	k i:
 きか	k i k a
@@ -473,7 +304,6 @@
 こ	k o
 こ	k o
 こ	k o
-こ	k o
 こする	k o s u r u
 こっ	k o q
 こね	k o n e
@@ -481,6 +311,7 @@
 こり	k o r i
 これ	k o r e
 これ	k u r e
+こん	k o N
 さ	s a
 さえ	s a e
 さがし	s a g a sh i
@@ -499,18 +330,16 @@
 しれ	sh i r e
 しろ	sh i r o
 す	s u
-す	s u
 すき	s u k i
 すき	s u k i
 すぎ	s u g i
 すて	s u t e
 すて	s u t e
 すて	s u t e
-すて	s u t e
 する	s u r u
 すれ	s u r e
 すれ	s u r e
-せ	s e
+せまっ	s e m a q
 そこね	s o k o n e
 そら	s o r a
 それ	s o r e
@@ -633,7 +462,6 @@
 まち	m a ch i
 まちがっ	m a ch i g a q
 まっ	m a q
-まっ	m a q
 まもっ	m a m o q
 まわっ	m a w a q
 まわれ	m a w a r e
@@ -650,6 +478,7 @@
 もち	m o ch i
 もっ	m o q
 もどっ	m o d o q
+もらっ	m o r a q
 もらわ	m o r a w a
 もれ	m o r e
 もん	m o N
@@ -680,7 +509,7 @@
 わたし	w a t a sh i
 わたっ	w a t a q
 わらい	w a r a i
-% 名詞
+% N
 あい	a i
 あい	a i
 あい	a i
@@ -763,7 +592,6 @@
 き	k i
 き	k i
 き	k i
-き	k i
 きかい	k i k a i
 きかい	k i k a i
 きく	k i k u
@@ -782,13 +610,11 @@
 くろ	k u r o
 け	k e
 け	k e
-け	k e
 けしき	k e sh i k i
 けっきょく	k e q ky o k u
 けん	k e N
 けん	k e N
 げん	g e N
-こ	k o
 こ	k o
 こ	k o
 こ	k o
@@ -823,11 +649,9 @@
 じぶん	j i b u N
 じゅう	j u:
 す	s u
-す	s u
 すき	s u k i
 すき	s u k i
 ず	z u
-せ	s e
 ぜいたく	z e: t a k u
 ぜったい	z e q t a i
 ぜんたい	z e N t a i
@@ -899,7 +723,6 @@
 とろ	t o r o
 ど	d o
 なか	n a k a
-なか	n a k a
 なん	n a N
 におい	n i o i
 にち	n i ch i
@@ -918,7 +741,6 @@
 はっ	h a q
 はな	h a n a
 はなし	h a n a sh i
-はなし	h a n a sh i
 はね	h a n e
 はやく	h a y a k u
 はやく	h a y a k u
@@ -929,8 +751,6 @@
 ひき	h i k i
 び	b i
 びっくり	b i q k u r i
-ふ	f u
-ふ	f u
 ふ	f u
 ふい	f u i
 ふう	f u:
@@ -977,7 +797,6 @@
 むかし	m u k a sh i
 むこう	m u k o:
 め	m e
-め	m e
 もち	m o ch i
 もと	m o t o
 もの	m o n o
@@ -992,6 +811,7 @@
 やま	y a m a
 やり	y a r i
 ゆび	y u b i
+ゆめ	y u m e
 よう	y o:
 よこ	y o k o
 よし	y o sh i
@@ -1010,15 +830,12 @@
 ＢＢ	b i: b i:
 ＯＫ	o: k e:
 ＵＳ	y u: e s u
-% 形容詞
+% ADJ
 あたたかい	a t a t a k a i
-あたらしい	a t a r a sh i:
 あったかい	a q t a k a i
 あったかく	a q t a k a k u
 いい	i:
-いい	i:
 いたい	i t a i
-いっ	i q
 いっ	i q
 うすく	u s u k u
 うま	u m a
@@ -1043,10 +860,10 @@
 かわいかっ	k a w a i k a q
 かわいく	k a w a i k u
 きたない	k i t a n a i
-きたない	k i t a n a i
 くらく	k u r a k u
 くるしい	k u r u sh i:
 さむ	s a m u
+さむい	 s a m u i
 すくない	s u k u n a i
 すご	s u g o
 すごい	s u g o i
@@ -1065,16 +882,13 @@
 なく	n a k u
 なくっ	n a k u q
 ね	n e
-ね	n e
 ねえ	n e:
 ねー	n e:
 はずかしい	h a z u k a sh i:
 はやく	h a y a k u
-はやく	h a y a k u
 ひどい	h i d o i
 ひろく	h i r o k u
 ふるい	f u r u i
-ほしい	h o sh i:
 ほしい	h o sh i:
 まず	m a z u
 まずい	m a z u i
@@ -1093,291 +907,3 @@
 わるい	w a r i:
 わるい	w a r u i
 わるく	w a r u k u
-% 形状詞
-いや	i y a
-いや	i y a
-いろいろ	i r o i r o
-おなじ	o n a j i
-おんなじ	o N n a j i
-きれい	k i r e:
-けっこう	k e q k o:
-こんな	k o N n a
-しずか	sh i z u k a
-じゅうぶん	j u: b u N
-すき	s u k i
-すき	s u k i
-そ	s o
-そう	s o:
-そんな	s o N n a
-たくさん	t a k u s a N
-だいじょうぶ	d a i j o: b u
-にこやか	n i k o y a k a
-ふらふら	f u r a f u r a
-まし	m a sh i
-みたい	m i t a i
-や	y a
-や	y a
-よう	y o:
-りっぱ	r i q p a
-% 感動詞
-あ	a
-ああ	a:
-あい	a i
-あい	a i
-あい	a i
-あう	a u
-あっ	a q
-あっ	a q
-あの	a n o
-あのー	a n o:
-あら	a r a
-あらっ	a r a q
-あれ	a r e
-あー	a:
-い	i
-い	i
-い	i
-いえ	i e
-いえ	i e
-いざ	i z a
-いや	i y a
-いや	i y a
-う	u
-うっ	u q
-うっ	u q
-うん	u N
-うーん	u: N
-え	e
-え	e
-えっ	e q
-えー	e:
-えーと	e: t o
-お	o
-お	o
-お	o
-お	o
-お	o
-お	o
-おい	o i
-おう	o:
-おす	o s u
-おっ	o q
-くっ	k u q
-け	k e
-け	k e
-け	k e
-さ	s a
-さあ	s a:
-しっ	sh i q
-そうそう	s o: s o:
-その	s o n o
-そら	s o r a
-と	t o
-どれ	d o r e
-な	n a
-なあ	n a:
-なっ	n a q
-なー	n a:
-ね	n e
-ね	n e
-ねえ	n e:
-ねっ	n e q
-は	h a
-はい	h a i
-はい	h a i
-はっ	h a q
-はー	h a:
-ふう	f u:
-ふん	f u N
-ふーん	f u: N
-へ	h e
-へー	h e:
-ほ	h o
-ほら	h o r a
-ま	m a
-や	y a
-や	y a
-やあ	y a:
-やっ	y a q
-やれ	y a r e
-よし	y o sh i
-よしっ	y o sh i q
-わ	w a
-わあ	w a:
-ん	N N N
-ん	N N N
-ん	N N N
-ん	N N N
-% 接尾辞
-あい	a i
-あい	a i
-あい	a i
-え	e
-え	e
-えん	e N
-おき	o k i
-かね	k a n e
-かん	k a N
-がい	g a i
-がら	g a r a
-き	k i
-き	k i
-き	k i
-き	k i
-けん	k e N
-けん	k e N
-こ	k o
-こ	k o
-こ	k o
-こ	k o
-ご	g o
-ご	g o
-さ	s a
-さん	s a N
-し	sh i
-しょ	sh o
-じ	j i
-じゅう	j u:
-すぎ	s u g i
-たい	t a i
-たい	t a i
-たい	t a i
-たち	t a ch i
-たて	t a t e
-たん	t a N
-たん	t a N
-だん	d a N
-ちゃ	ch a
-ちゃん	ch a N
-ちゃーん	ch a: N
-ちょん	ch o N
-っけ	k e
-っぽい	p o i
-つ	ts u
-つき	ts u k i
-てき	t e k i
-てん	t e N
-とう	t o:
-とう	t o:
-とも	t o m o
-とり	t o r i
-とり	t o r i
-ながら	n a g a r a
-にん	n i N
-ばん	b a N
-ひき	h i k i
-ふ	f u
-ふ	f u
-ふ	f u
-ふう	f u:
-ぽ	p o
-まい	m a i
-まい	m a i
-め	m e
-め	m e
-もち	m o ch i
-や	y a
-や	y a
-やすい	y a s u i
-やすい	y a s u i
-やすく	y a s u k u
-やん	y a N
-よう	y o:
-より	y o r i
-ら	r a
-わ	w a
-% 接続詞
-から	k a r a
-が	g a
-けど	k e d o
-しかも	sh i k a m o
-じゃ	j a
-じゃ	j a
-じゃあ	j a:
-そして	s o sh i t e
-ただ	t a d a
-て	t e
-て	t e
-で	d e
-また	m a t a
-んで	N d e
-% 接頭辞
-あい	a i
-あい	a i
-あい	a i
-お	o
-お	o
-お	o
-お	o
-お	o
-お	o
-おっ	o q
-かん	k a N
-こ	k o
-こ	k o
-こ	k o
-こ	k o
-ご	g o
-ご	g o
-さ	s a
-す	s u
-す	s u
-だい	d a i
-だい	d a i
-だい	d a i
-だい	d a i
-ど	d o
-ふ	f u
-ふ	f u
-ふ	f u
-ぶ	b u
-まっ	m a q
-まっ	m a q
-まる	m a r u
-% 補助記号
-、	sp
-% 記号
-あ	a
-い	i
-い	i
-い	i
-う	u
-え	e
-え	e
-お	o
-お	o
-お	o
-お	o
-お	o
-お	o
-く	k u
-け	k e
-け	k e
-け	k e
-っ	ts u
-び	b i
-ぶ	b u
-ま	m a
-ゆ	y u
-Ａ	e:
-Ｂ	b i:
-Ｃ	sh i:
-Ｄ	d i:
-Ｈ	e i ch i
-Ｔ	t i:
-Ｘ	e q k u s u
-Ｙ	w a i
-% 連体詞
-あの	a n o
-ある	a r u
-あん	a N
-いろんな	i r o N n a
-おなじ	o n a j i
-おんなじ	o N n a j i
-かかる	k a k a r u
-この	k o n o
-こんな	k o N n a
-その	s o n o
-そん	s o N
-そんな	s o N n a
-ろくな	r o k u n a

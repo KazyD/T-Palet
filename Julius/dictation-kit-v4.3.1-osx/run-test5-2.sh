@@ -1,0 +1,1 @@
+/Users/deikazuki/T-Palet-Project/Julius/dictation-kit-v4.3.1-osx/bin/julius -C test5-2.jconf -demo -nostrip $*

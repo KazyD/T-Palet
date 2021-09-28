@@ -1,0 +1,117 @@
+# vocaファイルにtest3(test2と同じ物)を用いて文法をかなり絞って記述してみる
+# 日本語文法解説に基づいて簡単なものから
+# 基本3形の中でも基本のもの→それぞれのページで解説してあるものを追加
+#                      |→または疑問文、否定文を追加
+
+# 品詞で指定するのではなく、ある程度基本の形を決めて助詞で分類分けしてしまうのもアリかも
+# 例: grammar N ha N desu     voca %ha は w a, %desu です d e s u
+
+
+# G = ({S,NS_B,NS_E,SENT,D_SENT,PRED,PP,NP},{p,v,n,sym,prn,pre,adv,aux,adj,conj,inter,prefix,suffix},P,S)
+
+
+
+# top level
+S     : NS_B SENT NS_E
+# S     : NS_B CONJ SENT NS_E
+
+
+# ----------平叙文---------- #
+SENT	: PRED
+SENT  : SUBJ PRED
+#SENT  : SUBJ PRED MOI (連用修飾語を入れた場合のテスト) -> 「修飾語」は品詞ではないが、文の作りを整理するために入れてみる
+#SENT	: PP PRED
+
+
+# ----------主語---------- #
+SUBJ  : NP P
+#SUBJ  : ADN NP P (連体修飾語を入れた場合のテスト)
+
+
+# ----------述語---------- #
+PRED	: VP
+# 形容詞(句)
+PRED  : AP
+# 名詞文 (NはNです)
+PRED  : N AUX
+# 形容詞文 (NはADJ(い)です)
+PRED  : ADJ AUX
+# 動詞文 (NがV-ます)
+PRED  : V AUX
+#PRED  : COMP V AUX (補語の有無でテストを変える)
+
+
+
+# ----------動詞句---------- #
+VP  : V
+VP  : V AUX
+VP  : NP V
+
+
+# 後置詩句
+# PP	: NP P
+
+
+# ----------名詞句---------- #
+
+NP	: N
+NP  : PRN
+# 形容詞+名詞 (厚い本)
+NP  : ADJ N
+
+# 大きな/カブ (複数の形容詞をつなげるバージョンはあとでやる)
+#NP  : AP N
+#NP	: SYM
+
+# 名詞+の+名詞 (私の本)(彼/は/私/の夫です)
+NP  : NP P N (あとで追加)
+
+# 連体修飾 (この人)
+NP  : PRE N
+
+# 副詞+名詞 (少し右)
+NP  : ADV N
+
+# 名詞+接尾辞
+NP	: N SUFFIX
+NP	: PREFIX N
+#NP	: PREFIX N SUFFIX
+#NP	: SENT NP
+#NP	: N NP
+
+
+# ----------形容詞句---------- #
+# とても/大きい
+AP  : AP ADJ
+AP  : ADJ
+
+
+# ----------連体修飾語---------- # 名詞を修飾
+# 名詞+の (私の、未来の)
+SUBJ  : N {の}
+# 連体詞 (この、大きな、いわゆる)
+SUBJ  : PRE
+# 形容詞 (綺麗な、大きい)
+SUBJ  : ADJ
+# 動詞 (読んだ本)
+SUBJ  : V
+
+
+# ----------連用修飾語---------- # 述語を修飾
+# 副詞 (ゆっくり、さっき、とても)
+
+# 終端記号
+# P:助詞
+# V:動詞
+# N:名詞
+# SYM:記号
+# PRN:代名詞
+# PRE:連体詞
+# ADV:副詞
+# AUX:助動詞
+# ADJ:形容詞
+# CONJ:接続詞
+# INTER:感動詞
+# PREFIX:接頭辞
+# SUFFIX:接尾辞
+# NS_B, NS_E
